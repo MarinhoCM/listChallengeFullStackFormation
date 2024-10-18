@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+* {
+    font-family: 'inter';
+}
+
+.logo {
+    font-weight: 700;    
+    font-size: 3vh;
+}
+
+.removeItem {
+    background-color: red;
+    cursor: pointer;
+    margin-left: 40vw;
+}

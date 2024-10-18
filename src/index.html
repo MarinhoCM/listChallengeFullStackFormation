@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>QuickList</title>
+    <link rel="stylesheet" href="./styles/styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo" align="center">
+        <img src="./assets/logoIcon.svg" alt="Icone de logo" />
+        quicklist
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <h2>Compras da Semana</h2>
+        <div class="form-container" align="center">
+          <form type="submit" name="itemsForm">
+            <input
+              id="inputItems"
+              type="text"
+              name="inputItems"
+              placeholder="Adicione um novo item"
+              required
+            />
+            <button type="submit">Adicionar Item</button>
+            <ul id="itemsList"></ul>
+          </form>
+        </div>
+      </div>
+    </main>
+    <footer></footer>
+    <script src="./scripts/index.js" type="module"></script>
+  </body>
+</html>
